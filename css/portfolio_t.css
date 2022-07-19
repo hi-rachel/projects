@@ -1,0 +1,67 @@
+.intro h1 {
+  font-size: 80px;
+}
+
+.typing {
+  margin: 0;
+}
+
+.title2,
+.title3,
+.title4 {
+  margin-left: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+#main2,
+#main3,
+#main4 {
+  flex-direction: column;
+  padding-top: 200px;
+}
+
+.chat,
+.starbucks,
+.todo,
+.kirsh,
+.movie_site {
+  width: 340px;
+  height: 205px;
+  border-radius: 5px;
+}
+
+.projectsLayout {
+  padding: 0;
+  width: 100%;
+  justify-content: center;
+  gap: 20px;
+}
+
+.projectsLayout a {
+  width: 340px;
+  height: 205px;
+}
+
+.main2Layout,
+.question {
+  width: 100%;
+  padding: 0;
+}
+
+.aboutTop {
+  justify-content: center;
+}
+
+.aboutBottom ul span,
+.skilset {
+  max-width: 100%;
+  justify-content: center;
+}
+
+.skilset {
+  max-width: 100%;
+  justify-content: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}

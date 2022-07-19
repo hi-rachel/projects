@@ -1,0 +1,91 @@
+#top {
+  top: 10px;
+  right: 10px;
+}
+
+.intro h1 {
+  font-size: 40px;
+}
+
+.title2,
+.title3,
+.title4 {
+  font-size: 30px;
+}
+
+.me img {
+  max-width: 200px;
+}
+
+.about {
+  padding: 0;
+}
+
+.aboutTop {
+  text-align: center;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#main1 {
+  padding-bottom: 0;
+}
+
+.profileImg {
+  margin-top: 10px;
+  width: 180px;
+  height: auto;
+}
+
+.chat,
+.starbucks,
+.todo,
+.kirsh,
+.movie_site {
+  width: 340px;
+  height: 205px;
+  border-radius: 5px;
+}
+
+.projectsLayout {
+  gap: 20px;
+}
+
+.projectsLayout a {
+  width: 340px;
+  height: 205px;
+}
+
+.aboutBottom ul span {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.skilset {
+  gap: 10px;
+  margin: 10px 50px 10px 50px;
+  font-size: 10px;
+}
+
+.skilbox {
+  margin: 0;
+}
+
+#main4 {
+  padding-bottom: 150px;
+}
+
+.question {
+  text-align: center;
+}
+
+#bottom {
+  margin-bottom: 20px;
+}
+
+.about,
+.contactIntro {
+  font-size: 15px;
+}
