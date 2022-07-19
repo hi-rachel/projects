@@ -181,18 +181,17 @@ a:visited {
 
 .intro {
   margin-top: 80px;
-  /* width: 70%; */
   text-align: center;
 }
 
 .intro h1 {
+  text-align: center;
   font-family: 'Abril Fatface', cursive;
   white-space: nowrap;
   font-size: 120px;
   line-height: 120%;
   margin-bottom: 30px;
   margin-top: 30px;
-  text-align: left;
 }
 
 .typing {
@@ -235,6 +234,8 @@ h1 .type3 {
 .me img {
   max-width: 400px;
 }
+
+.intro .btn {margin-left: 80px;}
 
 .btn {
   overflow: hidden;

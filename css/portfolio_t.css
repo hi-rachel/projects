@@ -2,6 +2,10 @@
   font-size: 80px;
 }
 
+.intro .btn {
+  margin-left: 0;
+}
+
 .typing {
   margin: 0;
 }
