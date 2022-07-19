@@ -436,7 +436,7 @@ h1 .type3 {
 .title4 {
   color: rosybrown;
   font-size: 40px;
-  padding-top: 80px;
+  padding-top: 100px;
   text-align: center;
   margin-bottom: 80px;
 }
@@ -444,7 +444,7 @@ h1 .type3 {
 .title2 {
     color: rosybrown;
   font-size: 40px;
-  padding-top: 80px;
+  padding-top: 100px;
   text-align: center;
     margin-bottom: 40px;
 }
@@ -517,7 +517,7 @@ figcaption p {
   align-items: center;
   gap: 20px;
   color: #616161;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   font-family: "Raleway", sans-serif;
 }
 
