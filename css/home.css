@@ -286,10 +286,12 @@ h1 .type3 {
 
 .btn:active {
   color: #fff;
+  border-radius: 10px;
 }
 
 .btn:active:after {
   background: transparent;
+  border-radius: 10px;
 }
 
 .btn:hover:before {
