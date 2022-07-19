@@ -9,41 +9,42 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" media="all and (max-width: 1024px)" href="">
     <link rel="stylesheet" media="all and (max-width: 640px)" href="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <title>Rachel Moon 👩🏻‍💻</title>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-        $(function () {
-            $("#draggable").draggable();
-            $("#drag").draggable();
-        });
     </script>
 </head>
 
 <body>
     <div id="main1">
-        <div id="header">
+        <a class="goGithub" href="https://github.com/hi-rachel" target="_blank" alt="see my github">
+            <div id="top">
+                <img class="github" src="./img/github_color.png" alt="github link">
+                <p>hi-rachel</p>
+            </div>
+        </a>
+        <!-- <div id="header">
             <p><a href="#main1" alt="HOME">HOME</a></p>
             <P><a href="#main2" alt="ABOUT">ABOUT</a></p>
             <p><a href="#main3" alt="PROJECT">PROJECT</a></p>
             <p><a href="#main4" alt="CONTACT">CONTACT</a></p>
-        </div>
+        </div> -->
         <div id="introFlex">
             <div class="intro">
-                <h1>
-                    <div class="c1">
+                <div class="typing">
+                    <h1>
                         <div class="type">
-                            Hello! I'm Rachel.<br></div>
-                    </div>
-                    <div class="c2">
+                            Hello! I'm Rachel.
+                        </div>
                         <div class="type2">
                             I'm Front-End</div>
-                    </div>
-                    <div class="c3">
                         <div class="type3">Developer.</div>
-                    </div>
-                </h1>
+                    </h1>
+                </div>
                 <button class="btn" type="button" onclick="location.href='#main3'">
                     View my work
                 </button>
@@ -53,12 +54,12 @@
             </div>
         </div>
     </div>
-    <div id="main2">
-        <h2 class="title2" data-aos="fade-down" data-aos-duration="1500">ABOUT
+    <div id="main2" data-aos="fade-up" data-aos-duration="2000">
+        <h2 class="title2">ABOUT
             <div class="titleLine"></div>
         </h2>
-        <div class="main2Layout" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-            <div class="aboutL">
+        <div class="main2Layout">
+            <div class="aboutTop">
                 <p class="about">I'm a Front-End Developer lived in Korea.
                     I like to create something and make it better to use and looking good.
                     I start to learn to code 2022, and It's very powerful. Now I'm creating Website and apps. It's very
@@ -66,90 +67,86 @@
                     give me a sense of accomplishment.
                     My major was 'Clothing' in University. I've always interested in design. Now it's develop to UX/UI
                     Design. Let's create someting cool!
+                    <div class="profile">
+                        <img class="profileImg" src="./img/me.jpeg">
+                    </div>
                 </p>
-                <div class="profile" id="draggable" class="ui-widget-content">
-                    <img class="profileImg" src="./img/me.jpeg">
-                </div>
             </div>
-            <div class="aboutR">
-                <ul class="skilset" id="drag" class="ui-widget-content">My Skill Set 🚀
-                    <li class="skilbox">HTML</li>
-                    <li class="skilbox">CSS</li>
-                    <li class="skilbox">JavaScript</li>
-                    <li class="skilbox">React</li>
-                    <li class="skilbox">Node.js</li>
-                    <li class="skilbox">Webflow</li>
-                    <li class="skilbox">Figma</li>
-                    <li class="skilbox">Photoshop</li>
-                    <li class="skilbox">Illustrator</li>
+            <div class="aboutBottom">
+                <ul><span>My Skill Set 🚀</span>
+                    <div class="skilset">
+                        <li class="skilbox">HTML</li>
+                        <li class="skilbox">CSS</li>
+                        <li class="skilbox">JavaScript</li>
+                        <li class="skilbox">React</li>
+                        <li class="skilbox">Node.js</li>
+                        <li class="skilbox">Webflow</li>
+                        <li class="skilbox">Figma</li>
+                        <li class="skilbox">Photoshop</li>
+                        <li class="skilbox">Illustrator</li>
+                    </div>
                 </ul>
             </div>
         </div>
     </div>
-    <div id="main3">
-        <h2 class="title3" data-aos="fade-down" data-aos-duration="1500">PROJECTS
+    <div id="main3" data-aos="fade-up" data-aos-duration="2000">
+        <h2 class="title3">PROJECTS
             <div class="titleLine"></div>
         </h2>
-        <div class="projectsLayout" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
-            <div class="line1">
-                <a href="https://hi-rachel.github.io/react-movie/" alt="Movie Site" target="_blank">
-                    <figure class="project1">
-                        <img class="movie_site" src="./img/movie-site.png">
-                        <figcaption>
-                            <h3>Movie Site</h3>
-                            <p>React / YTS API</p>
-                        </figcaption>
-                    </figure>
-                </a>
-                <a href="https://hi-rachel.github.io./" alt="To Do List Site" target="_blank">
-                    <figure class="project2">
-                        <img class="todo" src="./img/to-do-list.png">
-                        <figcaption>
-                            <h3>To Do List Site</h3>
-                            <p>JavaScript / Weather API</p>
-                        </figcaption>
-                    </figure>
-                </a>
-                <a href="#" target="_blank">
-                    <figure class="project3">
-                        <img class="chat" src="./img/chat.png">
-                        <figcaption>
-                            <h3>Ice Cream Chat</h3>
-                            <p>Node.js / WebRTC / Websockets</p>
-                        </figcaption>
-                    </figure>
-                </a>
-            </div>
-            <div class="line2">
-                <a href="https://www.figma.com/proto/m5ZrqbgNlsS9rRTmazKUYg/Starbucks-Project?node-id=13%3A260&starting-point-node-id=13%3A260"
-                    alt="Starbucks Gift Card Custom App" target="_blank">
-                    <figure class="project4">
-                        <img class="starbucks" src="./img/app.png">
-                        <figcaption>
-                            <h3>Starbucks Gift Card<br>Custom App</h3>
-                            <p>UX / UI</p>
-                        </figcaption>
-                    </figure>
-                </a>
-                <a href="https://hi-rachel.github.io/cherry/KirshProject.html" alt="Kirsh Shopping Mall"
-                    target="_blank">
-                    <figure class="project5">
-                        <img class="kirsh" src="./img/kirsh.png">
-                        <figcaption>
-                            <h3>Kirsh Shopping Mall</h3>
-                            <p>HTML / CSS</p>
-                        </figcaption>
-                    </figure>
-                </a>
-            </div>
+        <div class="projectsLayout">
+            <a href="https://hi-rachel.github.io/react-movie/" alt="Movie Site" target="_blank">
+                <figure class="project1">
+                    <img class="movie_site" src="./img/movie-site.png">
+                    <figcaption>
+                        <h3>Movie Site</h3>
+                        <p>React / YTS API</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="https://hi-rachel.github.io./" alt="To Do List Site" target="_blank">
+                <figure class="project2">
+                    <img class="todo" src="./img/to-do-list.png">
+                    <figcaption>
+                        <h3>To Do List Site</h3>
+                        <p>JavaScript / Weather API</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="#" target="_blank">
+                <figure class="project3">
+                    <img class="chat" src="./img/chat.png">
+                    <figcaption>
+                        <h3>Ice Cream Chat</h3>
+                        <p>Node.js / WebRTC / Websockets</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="https://www.figma.com/proto/m5ZrqbgNlsS9rRTmazKUYg/Starbucks-Project?node-id=13%3A260&starting-point-node-id=13%3A260"
+                alt="Starbucks Gift Card Custom App" target="_blank">
+                <figure class="project4">
+                    <img class="starbucks" src="./img/app.png">
+                    <figcaption>
+                        <h3>Starbucks Gift Card<br>Custom App</h3>
+                        <p>UX / UI</p>
+                    </figcaption>
+                </figure>
+            </a>
+            <a href="https://hi-rachel.github.io/cherry/KirshProject.html" alt="Kirsh Shopping Mall" target="_blank">
+                <figure class="project5">
+                    <img class="kirsh" src="./img/kirsh.png">
+                    <figcaption>
+                        <h3>Kirsh Shopping Mall</h3>
+                        <p>HTML / CSS</p>
+                    </figcaption>
+                </figure>
+            </a>
         </div>
     </div>
-    <div id="main4">
-        <h2 class="title4" data-aos="fade-down" data-aos-duration="1500">CONTACT
+    <div id="main4" data-aos="fade-up" data-aos-duration="2000">
+        <h2 class="title4">CONTACT
             <div class="titleLine"></div>
         </h2>
-        <!-- <p>Have a question or want to work together?</p> -->
-        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+        <div>
             <div class="question">
                 <p class="contactIntro">I always interested about new, cool things. Have a question or want to work
                     together?
@@ -158,15 +155,14 @@
                     onclick="window.open('mailto:rachel.uiux@gmail.com?subject=&#128075; Hi Rachel!');">
                     Contact me
                 </button>
-                <!-- <hr> -->
-                <div id="bottom">
-                    <a href="https://github.com/hi-rachel" target="_blank" alt="see my github">
-                        <img class="github" src="./img/github.svg" alt="github link">
-                    </a>
-                    <p>Rachel Moon <span>@2022</span></p>
-                </div>
             </div>
         </div>
+    </div>
+    <div id="bottom" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+        <a class="goGithub" href="https://github.com/hi-rachel" target="_blank" alt="see my github">
+            <img class="github" src="./img/github_color.png" alt="github link">
+        </a>
+        <p>Rachel Moon <span>@2022</span></p>
     </div>
     <script>
         AOS.init();
