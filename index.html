@@ -4,11 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, minimum-scale=1.0">
     <link rel="stylesheet" href="./css/home.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Rachel Moon 👩🏻‍💻</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         $(function () {
             $("#draggable").draggable();
@@ -50,10 +52,10 @@
         </div>
     </div>
     <div id="main2">
-        <h2 class="title2">ABOUT
+        <h2 class="title2" data-aos="fade-down" data-aos-duration="1500">ABOUT
             <div class="titleLine"></div>
         </h2>
-        <div class="main2Layout">
+        <div class="main2Layout" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
             <div class="aboutL">
                 <p class="about">I'm a Front-End Developer lived in Korea.
                     I like to create something and make it better to use and looking good.
@@ -83,10 +85,10 @@
         </div>
     </div>
     <div id="main3">
-        <h2 class="title3">PROJECTS
+        <h2 class="title3" data-aos="fade-down" data-aos-duration="1500">PROJECTS
             <div class="titleLine"></div>
         </h2>
-        <div class="projectsLayout">
+        <div class="projectsLayout" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
             <div class="line1">
                 <a href="https://hi-rachel.github.io/react-movie/" alt="Movie Site" target="_blank">
                     <figure class="project1">
@@ -141,27 +143,32 @@
         </div>
     </div>
     <div id="main4">
-        <h2 class="title4">CONTACT
+        <h2 class="title4" data-aos="fade-down" data-aos-duration="1500">CONTACT
             <div class="titleLine"></div>
         </h2>
         <!-- <p>Have a question or want to work together?</p> -->
-        <div class="question">
-            <p class="contactIntro">I always interested about new, cool things. Have a question or want to work
-                together?
-                Please feel free to contact me if you have any questions.</p>
-            <button class="btn contactBtn" type="button" name="contact to email"
-                onclick="window.open('mailto:rachel.uiux@gmail.com?subject=&#128075; Hi Rachel!');">
-                Contact me
-            </button>
-            <!-- <hr> -->
-            <div id="bottom">
-                <a href="https://github.com/hi-rachel" target="_blank" alt="see my github">
-                    <img class="github" src="./img/github.svg" alt="github link">
-                </a>
-                <p>Rachel Moon <span>@2022</span></p>
+        <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1500">
+            <div class="question">
+                <p class="contactIntro">I always interested about new, cool things. Have a question or want to work
+                    together?
+                    Please feel free to contact me if you have any questions.</p>
+                <button class="btn contactBtn" type="button" name="contact to email"
+                    onclick="window.open('mailto:rachel.uiux@gmail.com?subject=&#128075; Hi Rachel!');">
+                    Contact me
+                </button>
+                <!-- <hr> -->
+                <div id="bottom">
+                    <a href="https://github.com/hi-rachel" target="_blank" alt="see my github">
+                        <img class="github" src="./img/github.svg" alt="github link">
+                    </a>
+                    <p>Rachel Moon <span>@2022</span></p>
+                </div>
             </div>
         </div>
     </div>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
