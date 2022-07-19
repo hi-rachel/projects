@@ -16,7 +16,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
     <title>Rachel Moon 👩🏻‍💻</title>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script>
+        $(function () {
+            $("#draggable").draggable({
+                scroll: true,
+                scrollSensitivity: 100
+            });
+        });
     </script>
+
 </head>
 
 <body>
@@ -67,10 +77,10 @@
                     give me a sense of accomplishment.
                     My major was 'Clothing' in University. I've always interested in design. Now it's develop to UX/UI
                     Design. Let's create someting cool!
-                    <div class="profile">
-                        <img class="profileImg" src="./img/me.jpeg">
-                    </div>
                 </p>
+                <div id="draggable" class="ui-widget-content profile">
+                    <img class="profileImg" src="./img/me.jpeg">
+                </div>
             </div>
             <div class="aboutBottom">
                 <ul><span>My Skill Set 🚀</span>

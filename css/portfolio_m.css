@@ -40,8 +40,11 @@
   padding-bottom: 0;
 }
 
+.profile {
+  margin-top: 30px;
+}
+
 .profileImg {
-  margin-top: 10px;
   width: 180px;
   height: auto;
 }
@@ -51,22 +54,29 @@
 .todo,
 .kirsh,
 .movie_site {
-  width: 340px;
-  height: 205px;
+  width: 300px;
+  height: auto;
   border-radius: 5px;
 }
 
 .projectsLayout {
+  width: 100%;
   gap: 20px;
 }
 
-.projectsLayout a {
-  width: 340px;
-  height: 205px;
+.projectsLayout a,
+figcaption {
+  width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.projectsLayout figcaption {
+  height: 98%;
 }
 
 .aboutBottom ul span {
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 20px;
 }
 
