@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/home.css">
-    <title>Portfolio</title>
+    <title>Rachel Moon 👩🏻‍💻</title>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
     <script>
@@ -30,7 +30,7 @@
                 <h1>
                     <div class="c1">
                         <div class="type">
-                            Hello! I'm Rachel,<br></div>
+                            Hello! I'm Rachel.<br></div>
                     </div>
                     <div class="c2">
                         <div class="type2">
@@ -45,7 +45,7 @@
                 </button>
             </div>
             <div class="me">
-                <img src="./img/img.png">
+                <img src="./img/img.png" alt="me">
             </div>
         </div>
     </div>
@@ -55,29 +55,25 @@
         </h2>
         <div class="main2Layout">
             <div class="aboutL">
-
                 <p class="about">I'm a Front-End Developer lived in Korea.
-                    I like create something and make it better to use and looking good.
-                    I start to learn coding 2022 and It's very awesome. Before 2022,
-                    I even don't know what is coding. But now I creating Website and apps. And It's very satisfying and
-                    give
-                    me
-                    a sense of accomplishment.
-                    My major was 'Clothing' in University. I've always interested in Design. Now it's develop to UX/UI
-                    Design. Please contact me if you want to work with me.
+                    I like to create something and make it better to use and looking good.
+                    I start to learn to code 2022, and It's very powerful. Now I'm creating Website and apps. It's very
+                    satisfying and
+                    give me a sense of accomplishment.
+                    My major was 'Clothing' in University. I've always interested in design. Now it's develop to UX/UI
+                    Design. Let's create someting cool!
                 </p>
-                <div class="profileImg" id="draggable" class="ui-widget-content">
-                    <img class="profile" src="./img/me.jpeg">
+                <div class="profile" id="draggable" class="ui-widget-content">
+                    <img class="profileImg" src="./img/me.jpeg">
                 </div>
             </div>
             <div class="aboutR">
-                <ul class="skilset" id="drag" class="ui-widget-content">My Skillset 🚀
+                <ul class="skilset" id="drag" class="ui-widget-content">My Skill Set 🚀
                     <li class="skilbox">HTML</li>
                     <li class="skilbox">CSS</li>
                     <li class="skilbox">JavaScript</li>
                     <li class="skilbox">React</li>
                     <li class="skilbox">Node.js</li>
-                    <li class="skilbox">MongoDB</li>
                     <li class="skilbox">Webflow</li>
                     <li class="skilbox">Figma</li>
                     <li class="skilbox">Photoshop</li>
@@ -150,17 +146,20 @@
         </h2>
         <!-- <p>Have a question or want to work together?</p> -->
         <div class="question">
-            <p>I'm always interested in new things, design, and development.</p>
-            <p>I want to do various projects with people, so please contact me if you want to work with me.
-            </p>
-            <p>Please feel free to contact me if you have any questions.</p>
-            </p>
-            <form>
-                <input placeholder="Name" name="name" required type="text">
-                <input placeholder="Email" name="email" required type="text">
-                <textarea placeholder="Message" name="message" required type="text"></textarea>
-            </form>
-            <p>@copyright Rachel Moon</p>
+            <p class="contactIntro">I always interested about new, cool things. Have a question or want to work
+                together?
+                Please feel free to contact me if you have any questions.</p>
+            <button class="btn contactBtn" type="button" name="contact to email"
+                onclick="window.open('mailto:rachel.uiux@gmail.com?subject=&#128075; Hi Rachel!');">
+                Contact me
+            </button>
+            <!-- <hr> -->
+            <div id="bottom">
+                <a href="https://github.com/hi-rachel" target="_blank" alt="see my github">
+                    <img class="github" src="./img/github.svg" alt="github link">
+                </a>
+                <p>Rachel Moon <span>@2022</span></p>
+            </div>
         </div>
     </div>
 </body>
