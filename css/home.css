@@ -386,7 +386,7 @@ h1 .type3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  gap: 15px;
+  gap: 30px;
   text-align: center;
   overflow: hidden;
   padding-right: 100px;
@@ -444,6 +444,14 @@ h1 .type3 {
   padding-right: 100px;
 }
 
+.title2 {
+  margin-left: 20px;
+}
+
+.title4 {
+  margin-left: 10px;
+}
+
 .titleLine {
   margin: 0 auto;
   width: 60px;
@@ -491,7 +499,7 @@ figcaption p {
   /* justify-content: center; */
   width: 100%;
   height: 100%;
-  padding-top: 100px;
+  padding-top: 200px;
 }
 
 #main4 {
