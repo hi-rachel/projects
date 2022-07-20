@@ -75,6 +75,14 @@ figcaption {
   height: 98%;
 }
 
+figcaption h3 {
+  font-size: 25px;
+}
+
+figcaption p {
+  font-size: 15px;
+}
+
 .aboutBottom ul span {
   margin-top: 50px;
   margin-bottom: 20px;
